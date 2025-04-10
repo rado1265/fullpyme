@@ -30,7 +30,7 @@ const OrderDetails = () => {
         <CardBody>
           <Row>
             <Col lg={4}>
-              <h5 className="mb-3 fs-0">Dirección de facturación</h5>
+              <h5 className="mb-3 fs-0">Datos de facturación</h5>
               <h6 className="mb-2">Antony Hopkins</h6>
               <p className="mb-1 fs--1">
                 2393 Main Avenue

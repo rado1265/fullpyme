@@ -78,7 +78,7 @@ const columns = [
   },
   {
     dataField: 'address',
-    text: 'Dirección de facturación',
+    text: 'Datos de facturación',
     classes: 'py-2 align-middle',
     sort: true
   },
