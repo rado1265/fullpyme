@@ -8,7 +8,7 @@ export const homeRoutes = {
   children: [
     { to: '/', name: 'Panel Principal', exact: true },
     { to: '/dashboard-alt', name: 'Panel Secundario' },
-    { to: '/feed', name: 'Feed', exact: true, badge: { text: 'new' } },
+    { to: '/feed', name: 'Tablero', exact: true, badge: { text: 'new' } },
     { to: '/landing', name: 'Landing' }
   ]
 };
@@ -101,7 +101,7 @@ export const pageRoutes = {
     //{ to: '/pages/starter', name: 'Iniciar' },
     {
       to: '/errors',
-      name: 'Errors',
+      name: 'Errores',
       children: [{ to: '/errors/404', name: '404' }, { to: '/errors/500', name: '500' }]
     }
   ]
