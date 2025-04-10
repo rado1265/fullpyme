@@ -203,7 +203,7 @@ const Orders = () => {
 
   return (
     <Card className="mb-3">
-      <FalconCardHeader title="Orders" light={false}>
+      <FalconCardHeader title="Órdenes" light={false}>
         {isSelected ? (
           <InputGroup size="sm" className="input-group input-group-sm">
             <CustomInput type="select" id="bulk-select">

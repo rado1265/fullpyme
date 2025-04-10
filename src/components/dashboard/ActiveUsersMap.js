@@ -79,7 +79,7 @@ const ActiveUsersMap = () => {
   return (
     <Card className="h-100 mt-3 mt-lg-0">
       <CardHeader className="bg-light d-flex justify-content-between">
-        <h5 className="mb-0">Active users</h5>
+        <h5 className="mb-0">Usuarios activos</h5>
         <UncontrolledDropdown className="text-sans-serif">
           <DropdownToggle color="link" size="sm" className="text-600 dropdown-caret-none" boundary="viewport">
             <FontAwesomeIcon icon="ellipsis-h" className="fs--1" />
@@ -109,9 +109,9 @@ const ActiveUsersMap = () => {
               value={duration}
               onChange={({ target }) => setDuration(target.value)}
             >
-              <option value="week">Last 7 days</option>
-              <option value="month">Last month</option>
-              <option value="year">Last year</option>
+              <option value="week">Últimos 7 días</option>
+              <option value="month">Último mes</option>
+              <option value="year">Últimos año</option>
             </CustomInput>
           </Col>
           <Col xs="auto">

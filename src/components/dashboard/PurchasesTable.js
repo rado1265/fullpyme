@@ -55,7 +55,7 @@ const amountFormatter = amount => <Fragment>${amount}</Fragment>;
 const columns = [
   {
     dataField: 'customer',
-    text: 'Customer',
+    text: 'Cliente',
     formatter: customerFormatter,
     sort: true
   },
@@ -66,7 +66,7 @@ const columns = [
   },
   {
     dataField: 'product',
-    text: 'Product',
+    text: 'Producto',
     sort: true
   },
   {
@@ -182,7 +182,7 @@ const PurchasesTable = ({ setIsSelected }) => {
                   onClick={handlePrevPage(paginationProps)}
                   disabled={paginationProps.page === 1}
                 >
-                  Previous
+                  Anterior
                 </Button>
                 <Button
                   color={lastIndex >= paginationProps.totalSize ? 'light' : 'primary'}
@@ -191,7 +191,7 @@ const PurchasesTable = ({ setIsSelected }) => {
                   onClick={handleNextPage(paginationProps)}
                   disabled={lastIndex >= paginationProps.totalSize}
                 >
-                  Next
+                  Siguiente
                 </Button>
               </Col>
             </Row>

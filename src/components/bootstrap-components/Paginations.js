@@ -8,7 +8,7 @@ import FalconEditor from '../common/FalconEditor';
 const paginationWithTextCode = `<Pagination aria-label="Page navigation example">
   <PaginationItem>
     <PaginationLink href="#">
-      Previous
+      Anterior
     </PaginationLink>
   </PaginationItem>
   <PaginationItem active>
@@ -22,7 +22,7 @@ const paginationWithTextCode = `<Pagination aria-label="Page navigation example"
   </PaginationItem>
   <PaginationItem>
     <PaginationLink href="#">
-      Next
+      Siguiente
     </PaginationLink>
   </PaginationItem>
 </Pagination>`;

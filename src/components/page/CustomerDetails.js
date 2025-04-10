@@ -62,7 +62,7 @@ const CustomerSummary = () => {
               </Col>
               <Col xs="auto" className="d-none d-sm-block">
                 <h6 className="text-uppercase text-600">
-                  Customer
+                Cliente
                   <FontAwesomeIcon icon="user" className="ml-2" />
                 </h6>
               </Col>
@@ -72,7 +72,7 @@ const CustomerSummary = () => {
             <Media>
               <FontAwesomeIcon icon="user" transform="down-5" className="text-success mr-2" />
               <Media body>
-                <p className="mb-0">Customer was created</p>
+                <p className="mb-0">Cliente creado</p>
                 <p className="fs--1 mb-0 text-600">{createdAt}</p>
               </Media>
             </Media>

@@ -56,7 +56,7 @@ CardSummary.propTypes = {
 };
 
 CardSummary.defaultProps = {
-  linkText: 'See all',
+  linkText: 'Ver todo',
   to: '#!',
   color: 'primary'
 };

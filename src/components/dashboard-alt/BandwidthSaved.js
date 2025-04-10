@@ -57,9 +57,9 @@ const BandwidthSaved = ({ total, saved }) => {
         <Row className="flex-between-center">
           <Col xs="auto">
             <CustomInput type="select" id="exampleCustomSelect" bsSize="sm">
-              <option>Last 6 Months</option>
-              <option>Last Year</option>
-              <option>Last 2 Year</option>
+              <option>Últimos 6 meses</option>
+              <option>Último año</option>
+              <option>Últimos 2 años</option>
             </CustomInput>
           </Col>
           <Col xs="auto">

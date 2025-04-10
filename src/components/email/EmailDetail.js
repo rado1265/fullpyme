@@ -147,7 +147,7 @@ const EmailDetail = () => {
                     <a className="font-weight-semi-bold ml-1" href="#!">
                       expires in 7 days
                     </a>
-                    —so pick your course—and enroll today!
+                    —so pick your course—and enroll hoy!
                   </p>
                   <div className="text-center">
                     <Button size="lg" color="success" className="my-3">
@@ -156,7 +156,7 @@ const EmailDetail = () => {
                     <small className="d-block">
                       For any technical issues faced, please contact
                       <a href="#!" className="ml-1">
-                        Customer Support
+                        Soporte al cliente
                       </a>
                       .
                     </small>

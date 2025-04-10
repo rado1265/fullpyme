@@ -17,17 +17,17 @@ const ProfileDropdown = () => (
           <span>Go Pro</span>
         </DropdownItem>
         <DropdownItem divider />
-        <DropdownItem href="#!">Set status</DropdownItem>
+        <DropdownItem href="#!">Cambiar estado</DropdownItem>
         <DropdownItem tag={Link} to="/pages/profile">
-          Profile &amp; account
+          Perfil
         </DropdownItem>
         <DropdownItem href="#!">Feedback</DropdownItem>
         <DropdownItem divider />
         <DropdownItem tag={Link} to="/pages/settings">
-          Settings
+          Ajustes
         </DropdownItem>
         <DropdownItem tag={Link} to="/authentication/basic/logout">
-          Logout
+          Cerrar Sesión
         </DropdownItem>
       </div>
     </DropdownMenu>

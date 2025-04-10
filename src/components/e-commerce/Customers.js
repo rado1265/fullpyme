@@ -150,7 +150,7 @@ const Customers = () => {
 
   return (
     <Card className="mb-3">
-      <FalconCardHeader title="Customers" light={false}>
+      <FalconCardHeader title="Clientes" light={false}>
         {isSelected ? (
           <InputGroup size="sm" className="input-group input-group-sm">
             <CustomInput type="select" id="bulk-select">

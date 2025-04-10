@@ -267,7 +267,7 @@ const ApplicantForm = ({ setRedirect, setRedirectUrl, layout, hasLabel }) => {
                       <Row>
                         <Col>                  
                 <FormGroup>
-                    <Label for="firstName">First Name</Label>
+                    <Label for="firstName">Nombre</Label>
                     <Input type="text" name="firstName" id="firstName" placeholder="" value={firstName} onChange={({ target }) => setFirstName(target.value)} />
                 </FormGroup>
                 <FormGroup>
@@ -275,7 +275,7 @@ const ApplicantForm = ({ setRedirect, setRedirectUrl, layout, hasLabel }) => {
                     <Input type="text" name="middleName" id="middleName" placeholder="" />
                 </FormGroup>
                 <FormGroup>
-                    <Label for="lastName">Last Name</Label>
+                    <Label for="lastName">Apellido</Label>
                     <Input type="text" name="lastName" id="lastName" placeholder="" />
                 </FormGroup>
                 <FormGroup>
@@ -575,7 +575,7 @@ const ApplicantForm = ({ setRedirect, setRedirectUrl, layout, hasLabel }) => {
                 <Col sm="12" style={{padding: 20}}>
                     <p>Testimony</p>
                     {/* <Button color="primary" block className="mt-3" disabled={isNext7Disabled}>
-                        Next
+                        Siguiente
                     </Button>                     */}
                 </Col>
             </Row>

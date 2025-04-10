@@ -19,12 +19,12 @@ const changelogs = [
     publish: '11 December, 2019',
     logs: {
       New: [
-        '<strong>Page</strong>: Product List',
-        '<strong>Page</strong>: Product Grid',
-        '<strong>Page</strong>: Product Details',
-        '<strong>Page</strong>: Orders',
+        '<strong>Page</strong>: Lista de productos',
+        '<strong>Page</strong>: Tabla de productos',
+        '<strong>Page</strong>: Detalle producto',
+        '<strong>Page</strong>: Órdenes',
         '<strong>Page</strong>: Order Details',
-        '<strong>Page</strong>: Customers',
+        '<strong>Page</strong>: Clientes',
         '<strong>Page</strong>: Shopping Cart',
         '<strong>Page</strong>: Checkout',
         '<strong>Page</strong>: Favorite Items',

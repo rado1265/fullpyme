@@ -21,11 +21,11 @@ const BestSellingProducts = ({ products }) => {
             <tr className="text-900">
               <th>Best Selling Products</th>
               <th className="text-right">
-                Revenue ({currency}
+                Ganancia ({currency}
                 {totalPrice})
               </th>
               <th className="pr-card text-right" style={{ width: '8rem' }}>
-                Revenue (%)
+              Ganancia (%)
               </th>
             </tr>
           </thead>
@@ -46,14 +46,14 @@ const BestSellingProducts = ({ products }) => {
         <Row className="flex-between-center">
           <Col xs="auto">
             <CustomInput type="select" id="exampleCustomSelect" bsSize="sm">
-              <option>Last 7 days</option>
-              <option>Last Month</option>
-              <option>Last Year</option>
+              <option>Últimos 7 días</option>
+              <option>Último mese</option>
+              <option>Último año</option>
             </CustomInput>
           </Col>
           <Col xs="auto">
             <Button color="falcon-default" size="sm" tag={Link} to="#!">
-              View All
+              Ver todo
             </Button>
           </Col>
         </Row>

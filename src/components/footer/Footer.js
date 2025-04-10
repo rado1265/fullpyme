@@ -7,8 +7,8 @@ const Footer = () => (
     <Row noGutters className="justify-content-between text-center fs--1 mt-4 mb-3">
       <Col sm="auto">
         <p className="mb-0 text-600">
-          College Admin <span className="d-none d-sm-inline-block">| </span>
-          <br className="d-sm-none" /> {new Date().getFullYear()} &copy; <a>College Admin</a>
+        RV Soluciones <span className="d-none d-sm-inline-block">| </span>
+          <br className="d-sm-none" /> {new Date().getFullYear()} &copy; <a>RV Soluciones</a>
         </p>
       </Col>
       <Col sm="auto">

@@ -97,7 +97,7 @@ class ActiveUsersBarChart extends Component {
     return (
       <Card className="h-100 bg-gradient">
         <CardHeader className="bg-transparent">
-          <h5 className="text-white">Active users right now</h5>
+          <h5 className="text-white">Usuarios activos ahora</h5>
           <div className="real-time-user display-1 font-weight-normal text-white">{this.state.currentActiveUser}</div>
         </CardHeader>
         <CardBody className="text-white fs--1">

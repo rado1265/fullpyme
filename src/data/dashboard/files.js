@@ -17,7 +17,7 @@ export default [
     img: product3,
     name: 'iphone.jpg',
     user: 'Antony',
-    time: 'Yesterday at 1:30 PM'
+    time: 'Ayer at 1:30 PM'
   },
   {
     id: 3,

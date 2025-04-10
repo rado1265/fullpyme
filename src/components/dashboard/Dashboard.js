@@ -42,14 +42,14 @@ const Dashboard = () => {
         </CardBody>
       </Card>
       <div className="card-deck">
-        <CardSummary rate="-0.23%" title="Customers" color="warning" linkText="See all">
+        <CardSummary rate="-0.23%" title="Clientes" color="warning" linkText="Ver todo">
           58.39k
         </CardSummary>
-        <CardSummary rate="0.0%" title="Orders" color="info" linkText="All orders">
+        <CardSummary rate="0.0%" title="Órdenes" color="info" linkText="Todas las órdenes">
           73.46k
         </CardSummary>
-        <CardSummary content="43,594" rate="9.54%" title="Revenue" color="success" linkText="Statistics">
-          <CountUp end={43594} duration={5} prefix="$" separator="," decimal="." />
+        <CardSummary content="43,594" rate="9.54%" title="Ganancia" color="success" linkText="Estadísticas">
+          <CountUp end={43594} duration={5} prefix="$" separator="." decimal="," />
         </CardSummary>
       </div>
       <Card className="mb-3">

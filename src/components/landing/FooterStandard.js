@@ -72,7 +72,7 @@ const FooterStandard = () => {
                 <FooterList list={menuList1} />
               </Col>
               <Col xs={6} md={3}>
-                <FooterTitle>Product</FooterTitle>
+                <FooterTitle>Producto</FooterTitle>
                 <FooterList list={menuList2} />
               </Col>
               <Col className="mt-5 mt-md-0">

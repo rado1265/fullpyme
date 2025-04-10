@@ -17,7 +17,7 @@ const AddToFeed = () => {
     <Card className="mb-3">
       <FalconCardHeader title="Add to your feed" titleTag="h5">
         <Link className="fs--1" to="/pages/people">
-          See all
+          Ver todo
         </Link>
       </FalconCardHeader>
       <CardBody>

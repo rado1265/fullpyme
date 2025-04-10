@@ -13,7 +13,7 @@ const BirthdayNotice = ({ name, profileLink }) => (
           <Link className="font-weight-semi-bold" to={profileLink}>
             {name}
           </Link>
-          's Birthday is today
+          's Birthday is hoy
         </Media>
       </Media>
     </CardBody>

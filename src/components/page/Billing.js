@@ -255,7 +255,7 @@ const BillingAside = () => {
         </div>
         <hr />
         <h5 className="d-flex justify-content-between">
-          <span>Due today</span>
+          <span>Due hoy</span>
           <span>$0.00</span>
         </h5>
         <p className="fs--1 text-600">

@@ -74,9 +74,9 @@ const PaymentsLineChart = () => {
       <CardBody className="rounded-soft bg-gradient">
         <Row className="text-white align-items-center no-gutters">
           <Col>
-            <h4 className="text-white mb-0">Today $764.39</h4>
+            <h4 className="text-white mb-0">Hoy $764.39</h4>
             <p className="fs--1 font-weight-semi-bold">
-              Yesterday <span className="opacity-50">$684.87</span>
+              Ayer <span className="opacity-50">$684.87</span>
             </p>
           </Col>
           <Col xs="auto" className="d-none d-sm-block">
