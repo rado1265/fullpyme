@@ -5,7 +5,7 @@ import PageHeader from '../common/PageHeader';
 
 const GettingStarted = () => (
   <Fragment>
-    <PageHeader title="Getting Started" className="mb-3">
+    {/* <PageHeader title="Getting Started" className="mb-3">
       <p className="mt-2 mb-0">
         Welcome to the ReactJS version of the{' '}
         <a
@@ -18,7 +18,7 @@ const GettingStarted = () => (
         . This doc will guide you to understand how <strong>Falcon-React</strong> theme is organized, basics of how to
         customize, and how to compile from the source code if you want.
       </p>
-    </PageHeader>
+    </PageHeader> */}
 
     <Card className="mb-3">
       <FalconCardHeader title="Running in Local environment" />

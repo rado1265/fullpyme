@@ -1,104 +1,104 @@
 import { version } from './config';
 
 export const homeRoutes = {
-  name: 'Home',
+  name: 'Inicio',
   to: '/',
   exact: true,
   icon: 'chart-pie',
   children: [
-    { to: '/', name: 'Dashboard', exact: true },
-    { to: '/dashboard-alt', name: 'Dashboard alt' },
+    { to: '/', name: 'Panel Principal', exact: true },
+    { to: '/dashboard-alt', name: 'Panel Secundario' },
     { to: '/feed', name: 'Feed', exact: true, badge: { text: 'new' } },
     { to: '/landing', name: 'Landing' }
   ]
 };
 
 export const authenticationRoutes = {
-  name: 'Authentication',
+  name: 'Autenticación',
   to: '/authentication',
   icon: 'lock',
   children: [
     {
       to: '/authentication/basic',
-      name: 'Basic',
+      name: 'Basico',
       children: [
-        { to: '/authentication/basic/login', name: 'Login' },
-        { to: '/authentication/basic/logout', name: 'Logout' },
-        { to: '/authentication/basic/register', name: 'Register' },
-        { to: '/authentication/basic/forget-password', name: 'Forgot password' },
-        { to: '/authentication/basic/password-reset', name: 'Reset password' },
-        { to: '/authentication/basic/confirm-mail', name: 'Confirm mail' },
-        { to: '/authentication/basic/lock-screen', name: 'Lock screen' }
+        { to: '/authentication/basic/login', name: 'Iniciar Sesión' },
+        { to: '/authentication/basic/logout', name: 'Cerrar Sesión' },
+        { to: '/authentication/basic/register', name: 'Registrar' },
+        { to: '/authentication/basic/forget-password', name: 'Clave perdida' },
+        { to: '/authentication/basic/password-reset', name: 'Recuperar clave' },
+        { to: '/authentication/basic/confirm-mail', name: 'Confirmar mail' },
+        { to: '/authentication/basic/lock-screen', name: 'Pantalla de espera' }
       ]
     },
     {
       to: '/authentication/card',
-      name: 'Card',
+      name: 'Tarjeta',
       children: [
-        { to: '/authentication/card/login', name: 'Login' },
-        { to: '/authentication/card/logout', name: 'Logout' },
-        { to: '/authentication/card/register', name: 'Register' },
-        { to: '/authentication/card/forget-password', name: 'Forgot password' },
-        { to: '/authentication/card/password-reset', name: 'Reset password' },
-        { to: '/authentication/card/confirm-mail', name: 'Confirm mail' },
-        { to: '/authentication/card/lock-screen', name: 'Lock screen' }
+        { to: '/authentication/card/login', name: 'Iniciar Sesión' },
+        { to: '/authentication/card/logout', name: 'Cerrar Sesión' },
+        { to: '/authentication/card/register', name: 'Registrar' },
+        { to: '/authentication/card/forget-password', name: 'Clave perdida' },
+        { to: '/authentication/card/password-reset', name: 'Recuperar clave' },
+        { to: '/authentication/card/confirm-mail', name: 'Confirmar mail' },
+        { to: '/authentication/card/lock-screen', name: 'Pantalla de espera' }
       ]
     },
     {
       to: '/authentication/split',
-      name: 'Split',
+      name: 'Divisor',
       children: [
-        { to: '/authentication/split/login', name: 'Login' },
-        { to: '/authentication/split/logout', name: 'Logout' },
-        { to: '/authentication/split/register', name: 'Register' },
-        { to: '/authentication/split/forget-password', name: 'Forgot password' },
-        { to: '/authentication/split/password-reset', name: 'Reset password' },
-        { to: '/authentication/split/confirm-mail', name: 'Confirm mail' },
-        { to: '/authentication/split/lock-screen', name: 'Lock screen' }
+        { to: '/authentication/split/login', name: 'Iniciar Sesión' },
+        { to: '/authentication/split/logout', name: 'Cerrar Sesión' },
+        { to: '/authentication/split/register', name: 'Registrar' },
+        { to: '/authentication/split/forget-password', name: 'Clave perdida' },
+        { to: '/authentication/split/password-reset', name: 'Recuperar clave' },
+        { to: '/authentication/split/confirm-mail', name: 'Confirmar mail' },
+        { to: '/authentication/split/lock-screen', name: 'Pantalla de espera' }
       ]
     }
   ]
 };
 
 export const ECommerceRoutes = {
-  name: 'E commerce',
+  name: 'Tienda Virtual',
   to: '/e-commerce',
   icon: 'cart-plus',
   children: [
-    { to: '/e-commerce/products/list', name: 'Product list' },
-    { to: '/e-commerce/products/grid', name: 'Product grid' },
-    { to: '/e-commerce/product-details', name: 'Product details' },
-    { to: '/e-commerce/orders', name: 'Orders' },
-    { to: '/e-commerce/order-details', name: 'Order details' },
-    { to: '/e-commerce/customers', name: 'Customers' },
-    { to: '/e-commerce/shopping-cart', name: 'Shopping cart' },
-    { to: '/e-commerce/checkout', name: 'Checkout' },
-    { to: '/e-commerce/favourite-items', name: 'Favourite items' }
+    { to: '/e-commerce/products/list', name: 'Lista de productos' },
+    { to: '/e-commerce/products/grid', name: 'Tabla de producto' },
+    { to: '/e-commerce/product-details', name: 'Detalle producto' },
+    { to: '/e-commerce/orders', name: 'Ordenes' },
+    { to: '/e-commerce/order-details', name: 'Detalle ordenes' },
+    { to: '/e-commerce/customers', name: 'Clientes' },
+    { to: '/e-commerce/shopping-cart', name: 'Carrito de compra' },
+    { to: '/e-commerce/checkout', name: 'Pago' },
+    { to: '/e-commerce/favourite-items', name: 'Productos favoritos' }
   ]
 };
 
 export const pageRoutes = {
-  name: 'Pages',
+  name: 'Paginas',
   to: '/pages',
   icon: 'copy',
   children: [
-    { to: '/pages/activity', name: 'Activity' },
-    { to: '/pages/associations', name: 'Associations' },
-    { to: '/pages/billing', name: 'Billing' },
-    { to: '/pages/customer-details', name: 'Customer details' },
-    { to: '/pages/event-detail', name: 'Event detail' },
-    { to: '/pages/event-create', name: 'Event create' },
-    { to: '/pages/events', name: 'Events' },
-    { to: '/pages/faq', name: 'Faq' },
-    { to: '/pages/invoice', name: 'Invoice' },
-    { to: '/pages/invite-people', name: 'Invite people' },
-    { to: '/pages/notifications', name: 'Notifications' },
-    { to: '/pages/people', name: 'People' },
-    { to: '/pages/pricing', name: 'Pricing' },
-    { to: '/pages/pricing-alt', name: 'Pricing alt' },
-    { to: '/pages/profile', name: 'Profile' },
-    { to: '/pages/settings', name: 'Settings' },
-    { to: '/pages/starter', name: 'Starter' },
+    { to: '/pages/activity', name: 'Actividad' },
+    { to: '/pages/associations', name: 'Partners' },
+    { to: '/pages/billing', name: 'Cartera' },
+    { to: '/pages/customer-details', name: 'Detalle cliente' },
+    { to: '/pages/event-detail', name: 'Detalle evento' },
+    { to: '/pages/event-create', name: 'Crear evento' },
+    { to: '/pages/events', name: 'Eventos' },
+    { to: '/pages/faq', name: 'Preguntas' },
+    { to: '/pages/invoice', name: 'Boleta' },
+    { to: '/pages/invite-people', name: 'Referidos' },
+    { to: '/pages/notifications', name: 'Notificaciones' },
+    { to: '/pages/people', name: 'Personas' },
+    { to: '/pages/pricing', name: 'Planes' },
+    { to: '/pages/pricing-alt', name: 'Planes V2' },
+    { to: '/pages/profile', name: 'Perfil' },
+    { to: '/pages/settings', name: 'Configuración' },
+    //{ to: '/pages/starter', name: 'Iniciar' },
     {
       to: '/errors',
       name: 'Errors',
@@ -112,21 +112,21 @@ export const emailRoutes = {
   to: '/email',
   icon: 'envelope-open',
   children: [
-    { to: '/email/inbox', name: 'Inbox' },
-    { to: '/email/email-detail', name: 'Email detail' },
-    { to: '/email/compose', name: 'Compose' }
+    { to: '/email/inbox', name: 'Bandeja entrada' },
+    { to: '/email/email-detail', name: 'Detalle email' },
+    { to: '/email/compose', name: 'Crear email' }
   ]
 };
 
 export const documentationRoutes = {
-  name: 'Documentation',
+  name: 'Documentación',
   to: '/documentation',
   exact: true,
   icon: 'book'
 };
 
 export const changelogRoutes = {
-  name: 'Changelog',
+  name: 'Cambios',
   to: '/changelog',
   exact: true,
   icon: 'code-branch',
@@ -137,30 +137,30 @@ export const changelogRoutes = {
 };
 
 export const componentRoutes = {
-  name: 'Components',
+  name: 'Componentes',
   to: '/components',
   icon: 'puzzle-piece',
   children: [
-    { to: '/components/alerts', name: 'Alerts' },
-    { to: '/components/accordions', name: 'Accordions' },
+    { to: '/components/alerts', name: 'Alertas' },
+    { to: '/components/accordions', name: 'Acordeon' },
     { to: '/components/avatar', name: 'Avatar' },
-    { to: '/components/badges', name: 'Badges' },
-    { to: '/components/backgrounds', name: 'Backgrounds' },
+    { to: '/components/badges', name: 'Etiquetas' },
+    { to: '/components/backgrounds', name: 'Fondos' },
     { to: '/components/breadcrumb', name: 'Breadcrumb' },
-    { to: '/components/buttons', name: 'Buttons' },
-    { to: '/components/cards', name: 'Cards' },
-    { to: '/components/collapses', name: 'Collapses' },
+    { to: '/components/buttons', name: 'Botones' },
+    { to: '/components/cards', name: 'Tarjetas' },
+    { to: '/components/collapses', name: 'Colapsables' },
     { to: '/components/dropdowns', name: 'Dropdowns' },
-    { to: '/components/forms', name: 'Forms' },
-    { to: '/components/listgroups', name: 'List groups' },
-    { to: '/components/modals', name: 'Modals' },
-    { to: '/components/navs', name: 'Navs' },
-    { to: '/components/navbars', name: 'Navbars' },
+    { to: '/components/forms', name: 'Formulario' },
+    { to: '/components/listgroups', name: 'Listas' },
+    { to: '/components/modals', name: 'Ventana emergente' },
+    { to: '/components/navs', name: 'Textos menú' },
+    { to: '/components/navbars', name: 'Menú' },
     { to: '/components/pageheaders', name: 'Page headers' },
-    { to: '/components/paginations', name: 'Paginations' },
+    { to: '/components/paginations', name: 'Paginación' },
     { to: '/components/popovers', name: 'Popovers' },
-    { to: '/components/progress', name: 'Progress' },
-    { to: '/components/tables', name: 'Tables' },
+    { to: '/components/progress', name: 'Progreso' },
+    { to: '/components/tables', name: 'Tablas' },
     { to: '/components/tooltips', name: 'Tooltips' }
   ]
 };
@@ -170,42 +170,42 @@ export const pluginRoutes = {
   to: '/plugins',
   icon: 'plug',
   children: [
-    { to: '/plugins/bulk-select', name: 'Bulk select' },
-    { to: '/plugins/chart', name: 'Chart' },
-    { to: '/plugins/countup', name: 'Countup' },
+    { to: '/plugins/bulk-select', name: 'Selección' },
+    { to: '/plugins/chart', name: 'Graficos' },
+    { to: '/plugins/countup', name: 'Conteo' },
     { to: '/plugins/datetime', name: 'Datetime' },
-    { to: '/plugins/echarts', name: 'Echarts' },
-    { to: '/plugins/fontawesome', name: 'Fontawesome' },
+    { to: '/plugins/echarts', name: 'Mapa' },
+    { to: '/plugins/fontawesome', name: 'Iconos' },
     { to: '/plugins/google-map', name: 'Google map' },
-    { to: '/plugins/image-lightbox', name: 'Image lightbox' },
-    { to: '/plugins/progressbar', name: 'Progressbar' },
+    { to: '/plugins/image-lightbox', name: 'Imagenes' },
+    { to: '/plugins/progressbar', name: 'Progreso' },
     { to: '/plugins/select', name: 'Select' },
-    { to: '/plugins/toastify', name: 'Toastify' },
-    { to: '/plugins/typed', name: 'Typed' },
-    { to: '/plugins/wysiwyg', name: 'WYSIWYG editor' }
+    { to: '/plugins/toastify', name: 'Alertas' },
+    { to: '/plugins/typed', name: 'Tipeo' },
+    { to: '/plugins/wysiwyg', name: 'Editor de texto' }
   ]
 };
 
 export const utilityRoutes = {
-  name: 'Utilities',
+  name: 'Utilidades',
   to: '/utilities',
   icon: ['fab', 'hotjar'],
   children: [
-    { to: '/utilities/borders', name: 'Borders' },
-    { to: '/utilities/clearfix', name: 'Clearfix' },
-    { to: '/utilities/closeIcon', name: 'Close icon' },
-    { to: '/utilities/colors', name: 'Colors' },
-    { to: '/utilities/display', name: 'Display' },
-    { to: '/utilities/embed', name: 'Embed' },
-    { to: '/utilities/figures', name: 'Figures' },
+    { to: '/utilities/borders', name: 'Bordes' },
+    { to: '/utilities/clearfix', name: 'Flotantes' },
+    { to: '/utilities/closeIcon', name: 'Icono cerrar' },
+    { to: '/utilities/colors', name: 'Colores' },
+    { to: '/utilities/display', name: 'Largos' },
+    { to: '/utilities/embed', name: 'Incrustados' },
+    { to: '/utilities/figures', name: 'Figuras' },
     { to: '/utilities/flex', name: 'Flex' },
     { to: '/utilities/grid', name: 'Grid' },
-    { to: '/utilities/sizing', name: 'Sizing' },
-    { to: '/utilities/spacing', name: 'Spacing' },
-    { to: '/utilities/stretchedLink', name: 'Stretched link' },
-    { to: '/utilities/typography', name: 'Typography' },
-    { to: '/utilities/verticalAlign', name: 'Vertical align' },
-    { to: '/utilities/visibility', name: 'Visibility' }
+    { to: '/utilities/sizing', name: 'Tamaños' },
+    { to: '/utilities/spacing', name: 'Espacios' },
+    { to: '/utilities/stretchedLink', name: 'Tarjetas clickeables' },
+    { to: '/utilities/typography', name: 'Fuentes' },
+    { to: '/utilities/verticalAlign', name: 'Alineación' },
+    { to: '/utilities/visibility', name: 'Visibilidad' }
   ]
 };
 
