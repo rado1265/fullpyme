@@ -65,7 +65,7 @@ const FavouriteItem = ({ id }) => {
                 style={{ cursor: 'progress' }}
                 disabled
               >
-                Processing
+                Procesando
               </ButtonIcon>
             ) : (
               <ButtonIcon

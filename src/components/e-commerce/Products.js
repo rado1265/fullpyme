@@ -62,7 +62,7 @@ const Products = ({ match, history }) => {
             <Col sm="auto">
               <Form className="d-inline-block mr-3">
                 <InputGroup size="sm" tag={Flex} align="center">
-                  <small className="mr-1">Sort by:</small>
+                  <small className="mr-1">Ordernar por:</small>
                   <CustomInput
                     type="select"
                     defaultValue={sortBy}

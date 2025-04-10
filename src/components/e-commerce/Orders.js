@@ -48,27 +48,27 @@ const badgeFormatter = status => {
     case 'success':
       color = 'success';
       icon = 'check';
-      text = 'Completed';
+      text = 'Completado';
       break;
     case 'hold':
       color = 'secondary';
       icon = 'ban';
-      text = 'On hold';
+      text = 'En espera';
       break;
     case 'processing':
       color = 'primary';
       icon = 'redo';
-      text = 'Processing';
+      text = 'Procesando';
       break;
     case 'pending':
       color = 'warning';
       icon = 'stream';
-      text = 'Pending';
+      text = 'Pendiente';
       break;
     default:
       color = 'warning';
       icon = 'stream';
-      text = 'Pending';
+      text = 'Pendiente';
   }
 
   return (
@@ -95,13 +95,13 @@ const actionFormatter = (dataField, { id }: row) => (
       <FontAwesomeIcon icon="ellipsis-h" className="fs--1" />
     </DropdownToggle>
     <DropdownMenu right className="border py-2">
-      <DropdownItem onClick={() => console.log('Completed: ', id)}>Completed</DropdownItem>
-      <DropdownItem onClick={() => console.log('Processing: ', id)}>Processing</DropdownItem>
-      <DropdownItem onClick={() => console.log('On hold: ', id)}>On hold</DropdownItem>
-      <DropdownItem onClick={() => console.log('Pending: ', id)}>Pending</DropdownItem>
+      <DropdownItem onClick={() => console.log('Completado: ', id)}>Completado</DropdownItem>
+      <DropdownItem onClick={() => console.log('Procesando: ', id)}>Procesando</DropdownItem>
+      <DropdownItem onClick={() => console.log('En espera: ', id)}>En espera</DropdownItem>
+      <DropdownItem onClick={() => console.log('Pendiente: ', id)}>Pendiente</DropdownItem>
       <DropdownItem divider />
-      <DropdownItem onClick={() => console.log('Delete: ', id)} className="text-danger">
-        Delete
+      <DropdownItem onClick={() => console.log('Eliminar: ', id)} className="text-danger">
+        Eliminar
       </DropdownItem>
     </DropdownMenu>
   </UncontrolledDropdown>
@@ -110,34 +110,34 @@ const actionFormatter = (dataField, { id }: row) => (
 const columns = [
   {
     dataField: 'id',
-    text: 'Order',
+    text: 'Orden',
     classes: 'py-2 align-middle',
     formatter: orderFormatter,
     sort: true
   },
   {
     dataField: 'date',
-    text: 'Date',
+    text: 'Fecha',
     classes: 'py-2 align-middle',
     sort: true
   },
   {
     dataField: 'address',
-    text: 'Ship to',
+    text: 'Enviar a',
     classes: 'py-2 align-middle',
     formatter: shippingFormatter,
     sort: true
   },
   {
     dataField: 'status',
-    text: 'Status',
+    text: 'Estado',
     classes: 'py-2 align-middle',
     formatter: badgeFormatter,
     sort: true
   },
   {
     dataField: 'amount',
-    text: 'Amount',
+    text: 'Monto',
     classes: 'py-2 align-middle',
     formatter: amountFormatter,
     sort: true,
@@ -209,7 +209,7 @@ const Orders = () => {
             <CustomInput type="select" id="bulk-select">
               <option>Bulk actions</option>
               <option value="Refund">Refund</option>
-              <option value="Delete">Delete</option>
+              <option value="Eliminar">Eliminar</option>
               <option value="Archive">Archive</option>
             </CustomInput>
             <Button color="falcon-default" size="sm" className="ml-2">

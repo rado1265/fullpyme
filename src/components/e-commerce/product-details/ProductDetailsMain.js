@@ -69,7 +69,7 @@ const ProductDetailsMain = ({
           )}
         </h4>
         <p className="fs--1 mb-1">
-          <span>Shipping Cost: </span>
+          <span>Costo de envío: </span>
           <strong>
             {currency}
             {shippingCost}
@@ -78,7 +78,7 @@ const ProductDetailsMain = ({
         <p className="fs--1">
           Stock:{' '}
           <strong className={classNames({ 'text-success': isInStock, 'text-danger': !isInStock })}>
-            {isInStock ? 'Available' : 'Sold-Out'}
+            {isInStock ? 'Disponible' : 'Agotado'}
           </strong>
         </p>
       </div>
@@ -113,7 +113,7 @@ const ProductDetailsMain = ({
               style={{ cursor: 'progress' }}
               disabled
             >
-              Processing
+              Procesando
             </ButtonIcon>
           ) : (
             <ButtonIcon color="primary" size="sm" icon="cart-plus" onClick={handleAddToCart}>

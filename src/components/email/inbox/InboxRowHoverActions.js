@@ -13,7 +13,7 @@ const EmailRowHoverActions = ({ id, read, snooze }) => {
         Archive
       </InboxActionButton>
       <InboxActionButton color="light" id={`delete${id}`} icon="trash-alt" onClick={() => handleAction('delete', [id])}>
-        Delete
+        Eliminar
       </InboxActionButton>
       <InboxActionButton
         color="light"

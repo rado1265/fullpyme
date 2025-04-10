@@ -84,7 +84,7 @@ const tranformationCode = `<Fragment>
 
 const inlineStylesCode = `<Fragment>
   <p><mark>Highlight text</mark></p>
-  <p><del>Deleted text</del></p>
+  <p><del>Eliminard text</del></p>
   <p><u>Underlined text</u></p>
   <p><small>Small text</small></p>
   <p><strong>Bold text</strong></p>

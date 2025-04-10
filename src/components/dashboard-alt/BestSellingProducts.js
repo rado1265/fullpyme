@@ -19,7 +19,7 @@ const BestSellingProducts = ({ products }) => {
         <Table borderless className="table-dashboard mb-0 fs--1">
           <thead className="bg-light">
             <tr className="text-900">
-              <th>Best Selling Products</th>
+              <th>Best Selling Productos</th>
               <th className="text-right">
                 Ganancia ({currency}
                 {totalPrice})

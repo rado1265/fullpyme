@@ -40,7 +40,7 @@ const badgeFormatter = status => {
     default:
       color = 'warning';
       icon = 'stream';
-      text = 'Pending';
+      text = 'Pendiente';
   }
   return (
     <Badge color={`soft-${color}`} className="rounded-capsule fs--1">

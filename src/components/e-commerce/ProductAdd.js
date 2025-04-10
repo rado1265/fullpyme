@@ -115,8 +115,8 @@ const ProductAdd = () => {
                 type="select"
                 custom
               >
-                <option value="Computer & Accessories">Computer & Accessories</option>
-                <option value="Mobile & Tabs">Mobile & Tabs</option>
+                <option value="Computadora y accesorios">Computadora y accesorios</option>
+                <option value="Móvil y Tablets">Móvil y Tablets</option>
                 <option value="Watches & Accessories">Watches & Accessories</option>
                 <option value="Camera">Camera</option>
               </FalconInput>
@@ -135,7 +135,7 @@ const ProductAdd = () => {
             <Col sm={4}>
               <FalconInput
                 className="mb-3 input-spin-none"
-                label="Shipping cost"
+                label="Costo de envío"
                 value={shippingCost}
                 onChange={setShippingCost}
                 type="number"

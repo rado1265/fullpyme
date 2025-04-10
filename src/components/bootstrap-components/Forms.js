@@ -14,7 +14,7 @@ const Forms = () => (
       <p className="fs--1 mb-1">
         <h6>Below are the admission requirements:</h6>
         <ul>
-          <li>Completed application*</li>
+          <li>Completado application*</li>
           <li>18 years of age or older (Note: You must be 18 yrs of age by the time the Fall semester begins, HS Seniors are welcome to apply)</li>
           <li>High school diploma/GED equivalent or higher (Note: You must have earned a GED or High School Diploma by the time the Fall semester begins, HS Seniors are welcome to apply)</li>
           <li>1- Pastoral recommendation</li>

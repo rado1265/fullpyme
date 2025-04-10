@@ -26,7 +26,7 @@ export default [
       }
     ],
     title: 'Apple iMac Pro (27-inch with Retina 5K Display, 3.0GHz 10-core Intel Xeon W, 1TB SSD)',
-    category: 'Computer & Accessories',
+    category: 'Computadora y accesorios',
     features: ['16GB RAM', '1TB SSD Hard Drive', '10-core Intel Xeon', 'Mac OS', 'Secured'],
     price: 2399,
     sale: 50,
@@ -72,7 +72,7 @@ export default [
     ],
     title:
       'Apple MacBook Pro (15" Retina, Touch Bar, 2.2GHz 6-Core Intel Core i7, 16GB RAM, 256GB SSD) - Space Gray (Latest Model)',
-    category: 'Computer & Accessories',
+    category: 'Computadora y accesorios',
     features: ['16GB RAM', '256GB SSD Hard Drive', 'Intel Core i7', 'Mac OS', 'Space Gray'],
     price: 7199,
     rating: 4.5,
@@ -91,7 +91,7 @@ export default [
       }
     ],
     title: 'Apple iPad Air 2019 (3GB RAM, 128GB ROM, 8MP Main Camera)',
-    category: 'Mobile & Tabs',
+    category: 'Móvil y Tablets',
     features: ['3GB RAM', '128GB ROM', 'Apple A12 Bionic (7 nm)', 'iOS 12.1.3'],
     price: 750,
     sale: 25,
@@ -110,7 +110,7 @@ export default [
       }
     ],
     title: 'Apple iPhone XS Max (4GB RAM, 512GB ROM, 12MP Main Camera)',
-    category: 'Mobile & Tabs',
+    category: 'Móvil y Tablets',
     features: ['4GB RAM', '512GB Internal Storage', 'Apple A12 Bionic (7nm)', 'iOS 12', '3174mAh Li-Ion Battery'],
     price: 1050,
     rating: 4.5,
@@ -147,7 +147,7 @@ export default [
       }
     ],
     title: 'Logitech G305 Gaming Mouse',
-    category: 'Computer & Accessories',
+    category: 'Computadora y accesorios',
     price: 95,
     sale: 50,
     rating: 3.5,

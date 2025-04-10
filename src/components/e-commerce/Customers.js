@@ -47,8 +47,8 @@ const actionFormatter = (dataField, { id }: row) => (
     </DropdownToggle>
     <DropdownMenu right className="border py-2">
       <DropdownItem onClick={() => console.log('Edit: ', id)}>Edit</DropdownItem>
-      <DropdownItem onClick={() => console.log('Delete: ', id)} className="text-danger">
-        Delete
+      <DropdownItem onClick={() => console.log('Eliminar: ', id)} className="text-danger">
+        Eliminar
       </DropdownItem>
     </DropdownMenu>
   </UncontrolledDropdown>
@@ -78,7 +78,7 @@ const columns = [
   },
   {
     dataField: 'address',
-    text: 'Billing Address',
+    text: 'Dirección de facturación',
     classes: 'py-2 align-middle',
     sort: true
   },
@@ -155,7 +155,7 @@ const Customers = () => {
           <InputGroup size="sm" className="input-group input-group-sm">
             <CustomInput type="select" id="bulk-select">
               <option>Bulk actions</option>
-              <option value="Delete">Delete</option>
+              <option value="Eliminar">Eliminar</option>
               <option value="Archive">Archive</option>
             </CustomInput>
             <Button color="falcon-default" size="sm" className="ml-2">

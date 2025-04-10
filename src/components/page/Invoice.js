@@ -163,7 +163,7 @@ const Invoice = () => {
               <Table striped className="border-bottom">
                 <thead>
                   <tr className="bg-primary text-white">
-                    <th className="border-0">Products</th>
+                    <th className="border-0">Productos</th>
                     <th className="border-0 text-center">Quantity</th>
                     <th className="border-0 text-right">Rate</th>
                     <th className="border-0 text-right">Amount</th>

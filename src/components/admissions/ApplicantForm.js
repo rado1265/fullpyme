@@ -379,7 +379,7 @@ const ApplicantForm = ({ setRedirect, setRedirectUrl, layout, hasLabel }) => {
 
 
                           <FormGroup>
-                            <Label for="highestLevelOfEducation">Highest Level of Education Completed</Label>
+                            <Label for="highestLevelOfEducation">Highest Level of Education Completado</Label>
                             <Input type="select" name="highestLevelOfEducation" id="highestLevelOfEducation" value={highestLevelOfEducation} onChange={({ target }) => setHighestLevelOfEducation(target.value)}>
                               <option></option>
                               <option>High School or GED</option>

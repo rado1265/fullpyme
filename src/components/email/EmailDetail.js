@@ -55,7 +55,7 @@ const EmailDetail = () => {
               Archive
             </ButtonIconTooltip>
             <ButtonIconTooltip id="trash" icon="trash-alt" className="ml-1 ml-sm-2">
-              Delete
+              Eliminar
             </ButtonIconTooltip>
             <ButtonIconTooltip id="message" icon="envelope" className="ml-1 ml-sm-2">
               Mark as unread

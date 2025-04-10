@@ -18,9 +18,9 @@ const OrderDetails = () => {
       <PageHeader title="Order Details: #2737" titleTag="h5" className="mb-3">
         <p className="fs--1 mt-1">April 21, 2019, 5:33 PM</p>
         <div>
-          <strong className="mr-2">Status: </strong>
+          <strong className="mr-2">Estado: </strong>
           <Badge color="soft-success" pill className="fs--2">
-            Completed
+            Completado
             <FontAwesomeIcon icon="check" transform="shrink-2" className=" ml-1" />
           </Badge>
         </div>
@@ -30,7 +30,7 @@ const OrderDetails = () => {
         <CardBody>
           <Row>
             <Col lg={4}>
-              <h5 className="mb-3 fs-0">Billing Address</h5>
+              <h5 className="mb-3 fs-0">Dirección de facturación</h5>
               <h6 className="mb-2">Antony Hopkins</h6>
               <p className="mb-1 fs--1">
                 2393 Main Avenue
@@ -75,10 +75,10 @@ const OrderDetails = () => {
             <Table striped className="border-bottom">
               <thead className="bg-200 text-900">
                 <tr>
-                  <th className="border-0">Products</th>
-                  <th className="border-0 text-center">Quantity</th>
-                  <th className="border-0 text-right">Rate</th>
-                  <th className="border-0 text-right">Amount</th>
+                  <th className="border-0">Productos</th>
+                  <th className="border-0 text-center">Cantidad</th>
+                  <th className="border-0 text-right">Valor unitario</th>
+                  <th className="border-0 text-right">Total</th>
                 </tr>
               </thead>
               <tbody>
