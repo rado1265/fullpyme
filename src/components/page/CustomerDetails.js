@@ -56,7 +56,7 @@ const CustomerSummary = () => {
                     <DropdownItem>Report</DropdownItem>
                     <DropdownItem>Archive</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem className="text-danger">Delete user</DropdownItem>
+                    <DropdownItem className="text-danger">Eliminar user</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
               </Col>
@@ -113,7 +113,7 @@ const CustomerDetail = () => {
 
   return (
     <Card className="mb-3">
-      <FalconCardHeader title="Details">
+      <FalconCardHeader title="Ver Detalles">
         <ButtonIcon tag={Link} color="falcon-default" size="sm" icon="pencil-alt" to="#!" iconClassName="fs--2">
           Update details
         </ButtonIcon>

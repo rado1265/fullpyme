@@ -88,7 +88,7 @@ const TopProducts = ({ data, colors }) => {
       <FalconCardHeader title="Top Products" titleTag="h6" className="py-2">
         <Flex>
           <Button color="link" size="sm" tag={Link} className="mr-2" to="#!">
-            View Details
+            Ver Detalles
           </Button>
           <CardDropdown />
         </Flex>

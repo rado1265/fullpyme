@@ -91,7 +91,7 @@ const ActiveUsersMap = () => {
               <DropdownItem>Resize</DropdownItem>
               <DropdownItem divider />
               <DropdownItem className="text-warning">Archive</DropdownItem>
-              <DropdownItem className="text-danger">Delete</DropdownItem>
+              <DropdownItem className="text-danger">Eliminar</DropdownItem>
             </div>
           </DropdownMenu>
         </UncontrolledDropdown>

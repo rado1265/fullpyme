@@ -59,7 +59,7 @@ const Dashboard = () => {
               <CustomInput type="select" id="bulk-select">
                 <option>Bulk actions</option>
                 <option value="Refund">Refund</option>
-                <option value="Delete">Delete</option>
+                <option value="Eliminar">Eliminar</option>
                 <option value="Archive">Archive</option>
               </CustomInput>
               <Button color="falcon-default" size="sm" className="ml-2">

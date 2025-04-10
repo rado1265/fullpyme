@@ -25,7 +25,7 @@ const InboxBulkActions = ({ selectedItems }) => {
         id="deleteBulk"
         onClick={() => handleAction('delete', selectedItems)}
       >
-        Delete
+        Eliminar
       </InboxActionButton>
       <InboxActionButton
         color="falcon-default"

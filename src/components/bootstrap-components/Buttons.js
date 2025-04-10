@@ -49,7 +49,7 @@ const IconButtonCode = `<Fragment>
   </ButtonIcon>
   <hr />
   <ButtonIcon color="primary"  icon="trash" iconAlign="right" transform="shrink-3">
-    Delete
+    Eliminar
   </ButtonIcon>
 </Fragment>`;
 

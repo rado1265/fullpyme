@@ -94,12 +94,12 @@ const ProductGrid = ({
               )}
             </Flex>
             <p className="fs--1 mb-1">
-              Shipping Cost: <strong>{shippingCost === 0 ? 'Free' : `${currency}${shippingCost}`}</strong>
+              Costo de envío: <strong>{shippingCost === 0 ? 'Free' : `${currency}${shippingCost}`}</strong>
             </p>
             <p className="fs--1 mb-1">
               Stock:{' '}
               <strong className={classNames({ 'text-success': isInStock, 'text-danger': !isInStock })}>
-                {isInStock ? 'Available' : 'Sold-Out'}
+                {isInStock ? 'Disponible' : 'Agotado'}
               </strong>
             </p>
           </div>

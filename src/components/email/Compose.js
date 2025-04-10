@@ -164,7 +164,7 @@ const Compose = () => {
               <FontAwesomeIcon icon="trash" />
             </Label>
             <UncontrolledTooltip placement="top" target="delete">
-              Delete
+              Eliminar
             </UncontrolledTooltip>
           </Flex>
         </CardFooter>
